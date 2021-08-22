@@ -11,7 +11,7 @@ export default function Intro() {
             backDelay: 1200,
             backSpeed:50,
             showCursor: true,
-            strings: ["Google UX Design Certificate ", "Portfolio"]
+            strings: ["Google UX Design", "Certificate Portfolio"]
         });
     }, []);
     return (
