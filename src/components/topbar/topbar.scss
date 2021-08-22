@@ -19,12 +19,18 @@
     .left {
       display: flex;
       align-items: center;
+      @include mobile {
+        flex-direction: column;
+      }
       .logo {
         font-size: 28px;
         font-weight: 700;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        @include mobile {
+          display: none;
+        }
       }
 
       .itemContainer {
@@ -34,6 +40,7 @@
         .icon {
           font-size: 18px;
           margin-right: 5px;
+          color: $mainColor;
         }
 
         span {

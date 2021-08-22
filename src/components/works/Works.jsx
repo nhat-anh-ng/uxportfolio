@@ -19,18 +19,7 @@ export default function Works() {
             img: "assets/cs2.png",
             link: "https://docs.google.com/presentation/d/1VtqY6ABhrGhwLlijl0AN-RiVsqNptMYH2YBDgWKN-dw/edit?usp=sharing"
         },
-         {
-            id: "3",
-            title: "UniqueSkills",
-            img: "assets/cs1.png",
-            link: "https://docs.google.com/presentation/d/10rRk6sNlQ-apBXCwOkqZdY4DaRRi5nrdR8aVwGJLvtY/edit?usp=sharing"
-        },
-         {
-            id: "4",
-            title: "Snack Capsule",
-            img: "assets/cs2.png",
-            link: "https://docs.google.com/presentation/d/1VtqY6ABhrGhwLlijl0AN-RiVsqNptMYH2YBDgWKN-dw/edit?usp=sharing"
-        },
+        
         
     ];
     const handleClick = (way)=>{

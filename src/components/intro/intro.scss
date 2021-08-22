@@ -3,6 +3,10 @@
   background-color: white;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
   .left {
     flex: 0.3;
     overflow: hidden;
@@ -12,7 +16,9 @@
       height: 590px;
       background-color: #6e57e0;
       border-radius: 25px 25px 25px 25px;
-
+      @include mobile {
+        display: none;
+      }
       img {
         height: 90%;
       }
@@ -25,6 +31,9 @@
       width: 100%;
       height: 100%;
       padding-left: 16px;
+      @include mobile {
+        padding: 5px;
+      }
       display: flex;
       flex-direction: column;
       justify-content: center;
